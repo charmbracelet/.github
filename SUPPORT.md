@@ -12,8 +12,8 @@ will hold your hand on the journey to (command-line) enlightenment.
 
 We are incredibly lucky to have a very welcoming and active community. If
 you're looking for support from other community members, the
-[Discord][https://charm.sh/chat] is the best place to ask. We also have a
-community on [Matrix][https://charm.sh/matrix] that has fewer members, but
+[Discord](https://charm.sh/chat) is the best place to ask. We also have a
+community on [Matrix](https://charm.sh/matrix) that has fewer members, but
 includes some *very cool* privacy-conscious developers.
 
 The only rule is: ask the question, don't ask "can I ask a question" (╯°□°)╯︵ ┻━┻.
@@ -29,9 +29,9 @@ get to your question.
 
 ## White glove service
 
-If you're a big fan of tutorials. There's a Charm [blog][https://charm.sh/blog]
-and  [YouTube channel][https://charm.sh/yt] where you can find additional
-learning resources. That being said, all the information you need to get started
-should be included in the repository itself. If you find that's not the case and
-you see room for improvement, please let us know in the Discord `#feedback`
-channel or in an issue (you can tag `@bashbunni`).
+If you're a big fan of tutorials. There's a Charm [blog](https://charm.sh/blog)
+and  [YouTube channel](https://charm.sh/yt) where you can find additional
+learning resources. That being said, all the information you need to get
+started should be included in the repository itself. If you find that's not the
+case and you see room for improvement, please let us know in the Discord
+`#feedback` channel or in an issue (you can tag `@bashbunni`).
