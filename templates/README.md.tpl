@@ -43,8 +43,22 @@
 - Wish List: The SSH directory ✨ [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
 {{- end }}
 
-### Getting in touch
+## Feedback
 
-If you have any questions or comments feel free to join us on Slack:
+We'd love to hear your thoughts on this project. Feel free to drop us a note!
 
-https://charm.sh/slack/
+* [Twitter](https://twitter.com/charmcli)
+* [The Fediverse](https://mastodon.social/@charmcli)
+* [Discord](https://charm.sh/chat)
+
+## License
+
+[MIT](https://github.com/charmbracelet/bubbletea/raw/master/LICENSE)
+
+***
+
+Part of [Charm](https://charm.sh).
+
+<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
+
+Charm热爱开源 • Charm loves open source •
