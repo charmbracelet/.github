@@ -1,13 +1,13 @@
 <h3>
-<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="500"></a>
+<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
 </h3>
 <h6>
 <a href="https://charm.sh/chat"><img alt="speed dial charm" src="https://img.shields.io/badge/Chatty%3F-Sweet-%23ff6dff?style=flat"></a>
 </h6>
 
 Charm started as a group of friends exchanging .vimrc tips and building open
-source libraries. It's grown into a team of developers working to glamourize the
-command line.
+source libraries. It's now a team of developers working to make the command line
+a little more fabulous!
 
 ## Apps
 
@@ -59,7 +59,7 @@ skate set muesli muesli
 skate list | xargs -n 2 printf '%s loves %s.\n'
 ```
 
-### Send emails from your terminal
+### Send emails from the terminal
 
 [Pop][pop] lets you send emails from your terminal.
 
@@ -76,7 +76,7 @@ making them available for use in pipelines.
     <img src="https://camo.githubusercontent.com/01ad4ee3ba3ede0316404f07ac64b7510fb6323b0d2f2aa93a7202fdcebe39af/68747470733a2f2f7668732e636861726d2e73682f7668732d3555796a305536486c7169314c5649495279594b4d352e676966" width="800" alt="Mods Demo">
 </p>
 
-### Generate images
+### Image generator
 
 [Freeze][freeze] allows you to generate images of code and terminal output.
 
@@ -86,9 +86,10 @@ e.g. `freeze artichoke.hs -o artichoke.png`
     <img src="https://github.com/charmbracelet/freeze/raw/main/test/golden/svg/shadow.svg" width="600" alt="Freeze output example">
 </p>
 
-### Generate videos programmatically
+### Video generator
 
-[VHS][vhs] create tapes and create videos of all formats with VHS. You can record your keystrokes to a `.tape` file, then send it to VHS and your video is done.
+[VHS][vhs] lets you create videos programmatically. Record your keystrokes to a
+`.tape` file, then convert it with VHS.
 
 <p>
     <img src="https://camo.githubusercontent.com/23edb2dff03faa307e4c5421db3a373a9851c952bb55cd7140e355ef2c3b614b/68747470733a2f2f7668732e636861726d2e73682f7668732d346e596f79364973554b6d6c654a414e47374e3142482e676966" width="300" alt="VHS UI Demo">
@@ -96,15 +97,18 @@ e.g. `freeze artichoke.hs -o artichoke.png`
 
 ### Interactive shell scripts
 
-[Gum][gum] provides highly configurable, ready-to-use utilities to help you write useful shell scripts and dotfiles aliases with just a few lines of code. 
+[Gum][gum] provides highly configurable, ready-to-use utilities to help you
+write useful shell scripts and dotfiles aliases with just a few lines of code.
 
 <p>
     <img src="https://camo.githubusercontent.com/00af360c8d6c66b9c464041862987f5c4ed22e421036f8ab916587f0558733f9/68747470733a2f2f7668732e636861726d2e73682f7668732d31715935375272516c584375796473456744703638472e676966" width="400" alt="Gum Demo">
 </p>
 
-### SSH bastion and SSH endpoint management
+### SSH endpoint management and bastion
 
-[Wishlist][wishlist] can be used as a server to start multiple SSH apps within a single package and list them over SSH. You can also use Wishlist to list and connect to servers in your `~/.ssh/config` or in a YAML configuration file.
+[Wishlist][wishlist] can be used as a server to start multiple SSH apps within a
+single package and list them over SSH. You can also use Wishlist to list and
+connect to servers in your `~/.ssh/config` or in a YAML configuration file.
 
 <p>
     <img src="https://camo.githubusercontent.com/aea7c0ec9e20553229ec54ab544c947659d04a834eeb575575b9133b84f8f0e6/68747470733a2f2f7668732e636861726d2e73682f7668732d335944414b4c61734b68374967574e546b484b7248422e676966" width="600" alt="Wishlist Demo">
@@ -113,7 +117,8 @@ e.g. `freeze artichoke.hs -o artichoke.png`
   
 ### Self-hostable git server
 
-[Soft Serve][soft] is a tasty, self-hostable Git server for the command line. 🍦 You can also use it to browse your local repos with `soft browse`.
+[Soft Serve][soft] is a tasty, self-hostable Git server for the command line. 🍦
+You can also use it to browse your local repos with `soft browse`.
 
 <p>
     <img src="https://github.com/charmbracelet/soft-serve/assets/42545625/c754c746-dc4c-44a6-9c39-28649264cbf2" width="600" alt="Soft Serve Demo">
@@ -124,18 +129,19 @@ e.g. `freeze artichoke.hs -o artichoke.png`
 Our first two projects were [Glow][glow] and [Glamour][glamour]. When we thought about modern
 product development one thing we felt was lacking when building command line
 apps was the separation of concerns between structure and style. Here's what
-we've built in chronological order.
+we've built.
 
 ### Markdown rendering
 
-[Glamour][glamour] gives you stylesheet-based markdown rendering for your CLI apps. 
+[Glamour][glamour] gives you stylesheet-based markdown rendering for your CLI
+apps.
 
 <p>
     <img src="https://github.com/charmbracelet/glamour/raw/master/examples/helloworld/helloworld.png" width="600" alt="Glamour Example">
 </p>
 
 
-### Textual User Interfaces
+### Textual User Interface
 
 [Bubble Tea][bubbletea] is a TUI framework for Go based on the Elm
 architecture.
@@ -147,7 +153,7 @@ architecture.
 [Bubbles][bubbles] are reusable UI components for Bubble Tea. This includes
 spinners, lists, tables, file pickers, paginators, progress bars, and more.
 
-### Styling the command line
+### Command line styling
 
 [Lip Gloss][lipgloss] is the layout engine for not only nearly every Bubble Tea
 TUI, but also many general purpose CLI-based tools. Over 4,800 open source tools
@@ -178,9 +184,13 @@ ssh terminal.shop
     <img src="https://github.com/charmbracelet/soft-serve/assets/42545625/c754c746-dc4c-44a6-9c39-28649264cbf2" width="100%" alt="Wish Example">
 </p>
 
-### Encrypted data storage managed with SSH keys
+### Encrypted account management with SSH keys
 
 [Charm Cloud][cloud] is a set of tools to add user accounts, data storage, and encryption to your apps. It includes a key-value store, file system, end-to-end encryption, and account creation and authentication with SSH keys. Fully self-hostable (as usual).
+
+<p>
+    <img src="https://stuff.charm.sh/charm-tool-trailer.gif" width="500" alt="Charm Cloud Example">
+</p>
 
 ### Quick forms in the terminal
 
@@ -228,9 +238,9 @@ We’d love to hear your thoughts on this project. Feel free to drop us a note!
 
 ---
 
-Part of [Charm](https://charm.sh).
+Part of
 
-<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
+<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-logos-2020/charm-cream.png" width="150"></a>
 
 Charm热爱开源 • Charm loves open source
 
