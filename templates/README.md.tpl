@@ -59,7 +59,7 @@ to contribute to or expand your dev friend circle, get in there!
 {{- end }}
 
 
-[More details](CHARMWORLD.md) on what we're building for the command line.\
+[More details](profile/CHARMWORLD.md) on what we're building for the command line.\
 \
 
 ## Feedback
