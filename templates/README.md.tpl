@@ -1,4 +1,19 @@
-### Repos
+### What's the 411?!
+
+#### Bloggin'
+
+{{- range rss "https://charm.sh/blog/rss.xml" 5}}
+- [{{.Title}}]({{.URL}}): {{.Description}} by {{.Author}} (_released {{humanize .PublishedAt}}_)
+{{- end}}
+
+#### Updates
+
+There is now a [community owned-and-operated
+org](https://github.com/charm-community) powered by Charm tools. It's **the**
+place to see what the community is building. If you're looking for new projects
+to contribute to or expand your dev friend circle, get in there!
+
+#### Command line playground
 
 {{- range rss "https://github.com/charmbracelet/bubbles/releases.atom" 1 }}
 - Bubbles: TUI components for Bubble Tea 🍡 [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
@@ -42,6 +57,10 @@
 {{- range rss "https://github.com/charmbracelet/wishlist/releases.atom" 1 }}
 - Wish List: The SSH directory ✨ [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
 {{- end }}
+
+
+[More details](CHARMWORLD.md) on what we're building for the command line.\
+\
 
 ## Feedback
 
