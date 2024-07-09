@@ -14,6 +14,7 @@ place to see what the community is building. If you're looking for new projects
 to contribute to or expand your dev friend circle, get in there!
 
 #### Command line playground
+
 {{ $repos := list "bubbles" "bubbletea" "charm" "glamour" "glow" "gum" "harmonica" "keygen"
   "lipgloss" "melt" "skate" "soft-serve" "wish" "wishlist" }}
 
@@ -23,19 +24,7 @@ to contribute to or expand your dev friend circle, get in there!
 {{- end }}
 {{- end }}
 
-[More details](profile/CHARMWORLD.md) on what we're building for the command line.
-
-## Feedback
-
-We'd love to hear your thoughts on this project. Feel free to drop us a note!
-
-* [Twitter](https://twitter.com/charmcli)
-* [The Fediverse](https://mastodon.social/@charmcli)
-* [Discord](https://charm.sh/chat)
-
-## License
-
-[MIT](https://github.com/charmbracelet/bubbletea/raw/master/LICENSE)
+[More details](CHARMWORLD.md) on what we're building for the command line.
 
 ***
 

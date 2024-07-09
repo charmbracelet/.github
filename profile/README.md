@@ -31,8 +31,7 @@ to contribute to or expand your dev friend circle, get in there!
 - Wish List: The SSH directory ✨ [v0.14.1](https://github.com/charmbracelet/wishlist/releases/tag/v0.14.1) (_released 7 months ago_)
 
 
-[More details](profile/CHARMWORLD.md) on what we're building for the command line.\
-\
+[More details](profile/CHARMWORLD.md) on what we're building for the command line.
 
 ## Feedback
 
