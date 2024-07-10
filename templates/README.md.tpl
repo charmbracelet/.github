@@ -1,30 +1,22 @@
-### What's the 411?!
-
-#### Bloggin'
+### Recent Blog Posts
 
 {{- range rss "https://charm.sh/blog/rss.xml" 5}}
 - [{{.Title}}]({{.URL}}): {{.Description}} by {{.Author}} (_released {{humanize .PublishedAt}}_)
 {{- end}}
 
-#### Updates
+### What we're hackin' on 💄
 
-There is now a [community owned-and-operated
-org](https://github.com/charm-community) powered by Charm tools. It's **the**
-place to see what the community is building. If you're looking for new projects
-to contribute to or expand your dev friend circle, get in there!
+> This remains a mystery for now...
 
-#### Command line playground
+### Stargazing
 
-{{ $repos := list "bubbles" "bubbletea" "charm" "glamour" "glow" "gum" "harmonica" "keygen"
-  "lipgloss" "melt" "skate" "soft-serve" "wish" "wishlist" }}
+{{- range popularRepos 10 "charmbracelet"}}
+{{- with repo "charmbracelet" .Name}}
+- {{ humanize .Stargazers}} ⭐️ [{{.Name}}]({{.URL}}){{with .Description}} - {{.}}{{end}} [_{{.LastRelease.TagName}}_]({{.LastRelease.URL}})
+{{- end}}
+{{- end}}
 
-{{- range $repos }}
-{{- with repo "charmbracelet" . }}
-- {{ .Name | title }}: {{ .Description }} [{{ .LastRelease.Name }}]({{ .LastRelease.URL }}) (_released {{ humanize .LastRelease.PublishedAt }}_)
-{{- end }}
-{{- end }}
-
-[More details](CHARMWORLD.md) on what we're building for the command line.
+> Charm repos, sorted by star power.
 
 ***
 
