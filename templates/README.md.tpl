@@ -10,7 +10,7 @@
 
 ### Stargazing
 
-{{- range popularRepos 10 "charmbracelet"}}
+{{- range orgPopularRepos "charmbracelet" 5}}
 {{- with repo "charmbracelet" .Name}}
 - {{ humanize .Stargazers}} ⭐️ [{{.Name}}]({{.URL}}){{with .Description}} - {{.}}{{end}} [_{{.LastRelease.TagName}}_]({{.LastRelease.URL}})
 {{- end}}
