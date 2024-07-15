@@ -23,16 +23,7 @@ to contribute to or expand your dev friend circle, get in there!
 
 ### Oh, you wanna check out the command line?!
 
-{{ $repos := list "bubbles" "bubbletea" "charm" "glamour" "glow" "gum" "harmonica" "keygen"
-  "lipgloss" "melt" "skate" "soft-serve" "wish" "wishlist" }}
-
-{{- range $repos }}
-{{- with repo "charmbracelet" . }}
-- {{ .Name | title }}: {{ .Description }} [{{ .LastRelease.Name }}]({{ .LastRelease.URL }}) (_released {{ humanize .LastRelease.PublishedAt }}_)
-{{- end }}
-{{- end }}
-
-[More details](CHARMWORLD.md) on what we're building for the command line.
+> insert cliff hanger
 
 ***
 
