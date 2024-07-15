@@ -1,4 +1,5 @@
-### Bloggin'
+### Charm blogz
+
 
 {{- range rss "https://charm.sh/blog/rss.xml" 5}}
 
@@ -10,14 +11,17 @@ _{{.Description}}_
 <br/>
 {{- end}}
 
-### Updates
+
+There's [more](https://charm.sh/blog) where that came from...
+
+### Fresh n' juicy news
 
 There is now a [community owned-and-operated
 org](https://github.com/charm-community) powered by Charm tools. It's **the**
 place to see what the community is building. If you're looking for new projects
 to contribute to or expand your dev friend circle, get in there!
 
-### Command line playground
+### Oh, you wanna check out the command line?!
 
 {{ $repos := list "bubbles" "bubbletea" "charm" "glamour" "glow" "gum" "harmonica" "keygen"
   "lipgloss" "melt" "skate" "soft-serve" "wish" "wishlist" }}
