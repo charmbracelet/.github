@@ -1,5 +1,6 @@
-### Charm blogz
+{{ $authors := dict "Christian Rocha" "meowgorithm" "Bashbunni" "bashbunni" "Ayman Bagabas" "aymanbagabas" "Carlos Becker" "caarlos0" "Maas Lalani" "maaslalani" "Charm" "charmbracelet"}}
 
+### Charm blogz
 
 {{- range rss "https://charm.sh/blog/rss.xml" 5}}
 
@@ -7,7 +8,7 @@
 
 _{{.Description}}_ 
 <br/>
-🩷 by {{.Author}} ({{humanize .PublishedAt}})
+🩷 by [{{get $authors .Author }}](https://github.com/{{get $authors .Author}}) ({{humanize .PublishedAt}})
 <br/>
 {{- end}}
 
