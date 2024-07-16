@@ -15,19 +15,12 @@ to contribute to or expand your dev friend circle, get in there!
 
 #### Command line playground
 
-{{ $repos := list "bubbles" "bubbletea" "charm" "glamour" "glow" "gum" "harmonica" "keygen"
-  "lipgloss" "melt" "skate" "soft-serve" "wish" "wishlist" }}
-
-{{- range $repos }}
-{{- with repo "charmbracelet" . }}
-- {{ .Name | title }}: {{ .Description }} [{{ .LastRelease.Name }}]({{ .LastRelease.URL }}) (_released {{ humanize .LastRelease.PublishedAt }}_)
-{{- end }}
-{{- end }}
-
 #### What we're hackin' on
 
-{{- range orgRecentPushes "charmbracelet" 10 }}
-- [{{.Name}}]({{.URL}}): {{ .Description }}
+{{- range recentPushes "charmbracelet" 10 }}
+{{- with repo "charmbracelet" .Name }}
+- [{{.Name}}]({{.URL}}): {{ .Description }} - last released {{ .LastRelease.Name }} on {{ humanize .LastRelease.PublishedAt }}
+{{- end}}
 {{- end}}
 
 ***
