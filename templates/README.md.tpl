@@ -24,7 +24,11 @@ to contribute to or expand your dev friend circle, get in there!
 {{- end }}
 {{- end }}
 
-[More details](CHARMWORLD.md) on what we're building for the command line.
+#### What we're hackin' on
+
+{{- range orgRecentPushes "charmbracelet" 10 }}
+- [{{.Name}}]({{.URL}}): {{ .Description }}
+{{- end}}
 
 ***
 
