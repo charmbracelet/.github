@@ -1,12 +1,20 @@
-### Recent Blog Posts
+{{ $authors := dict "Christian Rocha" "meowgorithm" "Bashbunni" "bashbunni" "Ayman Bagabas" "aymanbagabas" "Carlos Becker" "caarlos0" "Maas Lalani" "maaslalani" "Charm" "charmbracelet"}}
+
+### Charm blogz
 
 {{- range rss "https://charm.sh/blog/rss.xml" 5}}
-- [{{.Title}}]({{.URL}}): {{.Description}} by {{.Author}} (_released {{humanize .PublishedAt}}_)
+
+#### [{{.Title}}]({{.URL}}) 
+
+_{{.Description}}_ 
+<br/>
+🩷 by [{{get $authors .Author }}](https://github.com/{{get $authors .Author}}) ({{humanize .PublishedAt}})
+<br/>
 {{- end}}
 
-### What we're hackin' on 💄
+There's [more](https://charm.sh/blog) where that came from...
 
-> This remains a mystery for now...
+### Fresh n' juicy news
 
 ### Stargazing
 
