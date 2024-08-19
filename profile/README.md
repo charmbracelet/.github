@@ -1,36 +1,36 @@
 
 
 ### Stargazing
-- 26,105 ⭐️ [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗 [_v0.12.1_](https://github.com/charmbracelet/bubbletea/releases/tag/v0.12.1)
-- 17,604 ⭐️ [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀 [_v0.1.0_](https://github.com/charmbracelet/gum/releases/tag/v0.1.0)
-- 15,580 ⭐️ [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 [_v0.1_](https://github.com/charmbracelet/glow/releases/tag/v0.1)
-- 14,621 ⭐️ [vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼 [_v0.0.1_](https://github.com/charmbracelet/vhs/releases/tag/v0.0.1)
-- 7,777 ⭐️ [lipgloss](https://github.com/charmbracelet/lipgloss) - Style definitions for nice terminal layouts 👄 [_v0.1.0_](https://github.com/charmbracelet/lipgloss/releases/tag/v0.1.0)
-- 5,242 ⭐️ [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧 [_v0.7.1_](https://github.com/charmbracelet/bubbles/releases/tag/v0.7.1)
-- 5,145 ⭐️ [soft-serve](https://github.com/charmbracelet/soft-serve) - The mighty, self-hostable Git server for the command line🍦 [_v0.1.0_](https://github.com/charmbracelet/soft-serve/releases/tag/v0.1.0)
-- 3,939 ⭐️ [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️ [_v0.1.0_](https://github.com/charmbracelet/huh/releases/tag/v0.1.0)
-- 3,399 ⭐️ [wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that! 💫 [_v0.1.0_](https://github.com/charmbracelet/wish/releases/tag/v0.1.0)
-- 3,044 ⭐️ [freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸 [_v0.1.3_](https://github.com/charmbracelet/freeze/releases/tag/v0.1.3)
+- 26,108 ⭐️ [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗 [_v0.27.0_](https://github.com/charmbracelet/bubbletea/releases/tag/v0.27.0)
+- 17,605 ⭐️ [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀 [_v0.14.3_](https://github.com/charmbracelet/gum/releases/tag/v0.14.3)
+- 15,581 ⭐️ [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 [_v1.5.1_](https://github.com/charmbracelet/glow/releases/tag/v1.5.1)
+- 14,621 ⭐️ [vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼 [_v0.7.2_](https://github.com/charmbracelet/vhs/releases/tag/v0.7.2)
+- 7,779 ⭐️ [lipgloss](https://github.com/charmbracelet/lipgloss) - Style definitions for nice terminal layouts 👄 [_v0.12.1_](https://github.com/charmbracelet/lipgloss/releases/tag/v0.12.1)
+- 5,242 ⭐️ [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧 [_v0.19.0_](https://github.com/charmbracelet/bubbles/releases/tag/untagged-f9aac4c38b7e9abbc959)
+- 5,145 ⭐️ [soft-serve](https://github.com/charmbracelet/soft-serve) - The mighty, self-hostable Git server for the command line🍦 [_v0.7.6_](https://github.com/charmbracelet/soft-serve/releases/tag/v0.7.6)
+- 3,940 ⭐️ [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️ [_v0.5.2_](https://github.com/charmbracelet/huh/releases/tag/v0.5.2)
+- 3,399 ⭐️ [wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that! 💫 [_v1.4.2_](https://github.com/charmbracelet/wish/releases/tag/v1.4.2)
+- 3,045 ⭐️ [freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output 📸 [_v0.1.6_](https://github.com/charmbracelet/freeze/releases/tag/v0.1.6)
 
 > Charm repos, sorted by star power.
 
 ### What we're hackin' on
+- [.github](https://github.com/charmbracelet/.github) Default community health files 
 - [bubbletea](https://github.com/charmbracelet/bubbletea) A powerful little TUI framework 🏗
-- [lipgloss](https://github.com/charmbracelet/lipgloss) Style definitions for nice terminal layouts 👄
+- [vhs](https://github.com/charmbracelet/vhs) Your CLI home video recorder 📼
 - [bubbles](https://github.com/charmbracelet/bubbles) TUI components for Bubble Tea 🫧
-- [gum](https://github.com/charmbracelet/gum) A tool for glamorous shell scripts 🎀
-- [wish](https://github.com/charmbracelet/wish) Make SSH apps, just like that! 💫
-- [x](https://github.com/charmbracelet/x) Charm experimental packages
-- [huh](https://github.com/charmbracelet/huh) Build terminal forms and prompts 🤷🏻‍♀️
-- [wishlist](https://github.com/charmbracelet/wishlist) The SSH directory ✨
+- [lipgloss](https://github.com/charmbracelet/lipgloss) Style definitions for nice terminal layouts 👄
+- [scoop-bucket](https://github.com/charmbracelet/scoop-bucket) Charmbracelet Scoop Bucket
+- [homebrew-tap](https://github.com/charmbracelet/homebrew-tap) Our homebrew tap 🍺
+- [winget-pkgs](https://github.com/charmbracelet/winget-pkgs) The Microsoft community Windows Package Manager manifest repository
 
 ### Latest Releases
+- [markscribe](https://github.com/charmbracelet/markscribe) - Your personal markdown scribe with template-engine and Git(Hub) & RSS powers 📜 [_v0.8.1_](https://github.com/charmbracelet/markscribe/releases/tag/v0.8.1) today
 - [wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that! 💫 [_v1.4.2_](https://github.com/charmbracelet/wish/releases/tag/v1.4.2) today
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗 [_v0.27.0_](https://github.com/charmbracelet/bubbletea/releases/tag/v0.27.0) 3 days ago
 - [melt](https://github.com/charmbracelet/melt) - Backup and restore Ed25519 SSH keys with seed words 🫠 [_v0.6.2_](https://github.com/charmbracelet/melt/releases/tag/v0.6.2) 4 days ago
 - [keygen](https://github.com/charmbracelet/keygen) - An SSH key pair generator 🗝️ [_v0.5.1_](https://github.com/charmbracelet/keygen/releases/tag/v0.5.1) 4 days ago
 - [glamour](https://github.com/charmbracelet/glamour) - Stylesheet-based markdown rendering for your CLI apps 💇🏻‍♀️ [_v0.8.0_](https://github.com/charmbracelet/glamour/releases/tag/v0.8.0) 2 weeks ago
-- [markscribe](https://github.com/charmbracelet/markscribe) - Your personal markdown scribe with template-engine and Git(Hub) & RSS powers 📜 [_v0.8.0_](https://github.com/charmbracelet/markscribe/releases/tag/v0.8.0) 2 weeks ago
 - [soft-serve](https://github.com/charmbracelet/soft-serve) - The mighty, self-hostable Git server for the command line🍦 [_v0.7.6_](https://github.com/charmbracelet/soft-serve/releases/tag/v0.7.6) 2 weeks ago
 - [mods](https://github.com/charmbracelet/mods) - AI on the command line [_v1.5.0_](https://github.com/charmbracelet/mods/releases/tag/v1.5.0) 2 weeks ago
 
