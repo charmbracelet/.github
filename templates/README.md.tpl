@@ -1,21 +1,5 @@
 {{ $authors := dict "Christian Rocha" "meowgorithm" "Bashbunni" "bashbunni" "Ayman Bagabas" "aymanbagabas" "Carlos Becker" "caarlos0" "Maas Lalani" "maaslalani" "Charm" "charmbracelet"}}
 
-### Charm blogz
-
-{{- range rss "https://charm.sh/blog/rss.xml" 5}}
-
-#### [{{.Title}}]({{.URL}}) 
-
-_{{.Description}}_ 
-<br/>
-🩷 by [{{get $authors .Author }}](https://github.com/{{get $authors .Author}}) ({{humanize .PublishedAt}})
-<br/>
-{{- end}}
-
-There's [more](https://charm.sh/blog) where that came from...
-
-### Fresh n' juicy news
-
 ### Stargazing
 
 {{- range popularRepos "charmbracelet" 10}}
@@ -25,6 +9,39 @@ There's [more](https://charm.sh/blog) where that came from...
 {{- end}}
 
 > Charm repos, sorted by star power.
+
+### What we're hackin' on
+
+{{- range recentPushedRepos "charmbracelet" 8}}
+- [{{.Name}}]({{.URL}}){{with .Description}} {{.}}{{end}}
+{{- end}}
+
+### Latest Releases
+
+{{- range latestReleasedRepos "charmbracelet" 8}}
+- [{{.Name}}]({{.URL}}){{with .Description}} - {{.}}{{end}} [_{{.LastRelease.TagName}}_]({{.LastRelease.URL}}) {{ humanize .LastRelease.PublishedAt}}
+{{- end}}
+
+### Fresh n' juicy news
+
+There is now a [community owned-and-operated
+org](https://github.com/charm-community) powered by Charm tools. It's **the**
+place to see what the community is building. If you're looking for new projects
+to be part of or expand your nerdy friend circle, get in there!  
+
+### Charm blogz
+
+{{- range rss "https://charm.sh/blog/rss.xml" 5}}
+
+#### [{{.Title}}]({{.URL}})
+
+_{{.Description}}_ 
+<br/>
+🩷 by [{{get $authors .Author }}](https://github.com/{{get $authors .Author}}) ({{humanize .PublishedAt}})
+<br/>
+{{- end}}
+
+There's [more](https://charm.sh/blog) where that came from...
 
 ***
 
