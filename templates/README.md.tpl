@@ -25,7 +25,7 @@
 ### Fresh n' juicy news
 
 There is now a [community owned-and-operated
-org](https://github.com/charm-community) powered by Charm tools. It's **the**
+org](https://github.com/charm-and-friends) powered by Charm tools. It's **the**
 place to see what the community is building. If you're looking for new projects
 to be part of or expand your nerdy friend circle, get in there!  
 
