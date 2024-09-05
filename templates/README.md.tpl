@@ -16,7 +16,7 @@
 - [{{.Name}}]({{.URL}}){{with .Description}} {{.}}{{end}}
 {{- end}}
 
-### Latest Releases
+### Latest releases
 
 {{- range latestReleasedRepos "charmbracelet" 8}}
 - [{{.Name}}]({{.URL}}){{with .Description}} - {{.}}{{end}} [_{{.LastRelease.TagName}}_]({{.LastRelease.URL}}) {{ humanize .LastRelease.PublishedAt}}
@@ -24,12 +24,15 @@
 
 ### Fresh n' juicy news
 
-There is now a [community owned-and-operated
-org](https://github.com/charm-and-friends) powered by Charm tools. It's **the**
-place to see what the community is building. If you're looking for new projects
-to be part of or expand your nerdy friend circle, get in there!  
+Wanna see what the community is up to? There's now a dedicated space for
+community-owned tools built with Charm. Join the crew in the new [Charm and
+Friends](https://github.com/charm-and-friends) GitHub org. Give your
+own projects the spotlight, contribute to open source, and hang with other
+terminal lovers.
 
-### Charm blogz
+See you there!
+
+### A glamorous blog
 
 {{- range rss "https://charm.sh/blog/rss.xml" 5}}
 
