@@ -13,7 +13,7 @@
 ### What we're hackin' on
 
 {{- range recentPushedRepos "charmbracelet" 8}}
-- [{{.Name}}]({{.URL}}){{with .Description}} {{.}}{{end}}
+- [{{.Name}}]({{.URL}}){{with .Description}} - {{.}}{{end}} (_last updated {{humanize .PushedAt}}_)
 {{- end}}
 
 ### Latest releases
@@ -52,4 +52,4 @@ Part of [Charm](https://charm.sh).
 
 <a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
 
-Charm热爱开源 • Charm loves open source •
+Charm热爱开源 • Charm loves open source
