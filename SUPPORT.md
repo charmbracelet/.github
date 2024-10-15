@@ -35,3 +35,11 @@ That being said, all the information you need to get started should be included
 in the repository itself. If you find that's not the case and you see room for
 improvement, please let us know in the Discord `#feedback` channel or in an
 issue (you can tag `@bashbunni`).
+
+---
+
+Part of [Charm](https://charm.sh).
+
+<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
+
+Charm热爱开源 • Charm loves open source • نحنُ نحب المصادر المفتوحة
