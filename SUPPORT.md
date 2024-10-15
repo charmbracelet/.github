@@ -29,9 +29,9 @@ get to your question.
 
 ## White glove service
 
-If you're a big fan of tutorials. There's a Charm [blog](https://charm.sh/blog)
-and  [YouTube channel](https://charm.sh/yt) where you can find additional
-learning resources. That being said, all the information you need to get
-started should be included in the repository itself. If you find that's not the
-case and you see room for improvement, please let us know in the Discord
-`#feedback` channel or in an issue (you can tag `@bashbunni`).
+There's a Charm [blog](https://charm.sh/blog) and  [YouTube
+channel](https://charm.sh/yt) where you can find additional learning resources.
+That being said, all the information you need to get started should be included
+in the repository itself. If you find that's not the case and you see room for
+improvement, please let us know in the Discord `#feedback` channel or in an
+issue (you can tag `@bashbunni`).
