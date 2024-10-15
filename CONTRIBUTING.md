@@ -3,7 +3,7 @@
 **Thanks for giving back to the open source community!**
 
 Here are a few guidelines that make it easier for maintainers to review your
-Pull Requests:
+pull requests:
 
 First off, for new features, please open an issue prior to creating a pull
 request. This allows the team and community to think about the change and
