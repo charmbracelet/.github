@@ -29,7 +29,11 @@ Steps to reproduce the behavior:
 4. See error
 
 **Source Code**
-Please include source code if needed to reproduce the behavior. 
+Please include a [minimum reproducible example][writing-examples] to reproduce the behavior.
+
+Please paste your example as a code block on the issue. Do not link to an external project. Your example should fit in a single file. Take a look at our example directory for an idea on writing a small, but runnable example.
+
+[writing-example]: https://stackoverflow.com/help/minimal-reproducible-example
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
