@@ -5,11 +5,10 @@ glamorous! ✨**
 
 Here are some best practices to contribute to Charm ૮ ˶ᵔ ᵕ ᵔ˶ ა
 
-Charm projects are open to contributions. The team is in maintenance mode for
-most of our tools right now, so it may take some time to review your
-contributions. During this time we will be prioritizing bug fixes. Regardless,
-the team always loves to hear from the community and sincerely appreciates all of
-your support!
+Charm projects are open to contributions. We're a small team with varied
+priorities, so it may take some time to review your contributions. During this
+time we will be prioritizing bug fixes. Regardless,the team always loves to
+hear from the community and sincerely appreciates all of your support!
 
 ## Features
 
