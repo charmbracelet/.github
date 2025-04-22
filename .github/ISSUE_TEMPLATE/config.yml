@@ -1,5 +1,7 @@
 blank_issues_enabled: true
 contact_links:
+- name: Anything but bugs
+  about: Please highlight your feature requests, questions, and feedback in discussions.
 - name: Discord
   url: https://charm.sh/discord
-  about: Chat on our Discord.
+  about: Hang out with the community!
