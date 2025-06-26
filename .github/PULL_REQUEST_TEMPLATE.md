@@ -4,7 +4,7 @@
 
 ### Checklist before requesting a review
 
-- [ ] I have read `CONTRIBUTING.md`
+- [ ] I have read [`CONTRIBUTING.md`](https://github.com/charmbracelet/.github/blob/main/CONTRIBUTING.md)
 - [ ] I have performed a self-review of my code
 
 ### If this is a feature
