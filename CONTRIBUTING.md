@@ -40,7 +40,7 @@ us know in your PR, otherwise we will assume it is a WIP.
 Please only mark the pull request as "Ready for Review" when it is in fact
 complete and ready for review.
 
-## Code style
+## Code Style
 
 If you know this feature exists in another Charm project, please reference that
 project's implementation and messaging in your design for consistency across the
